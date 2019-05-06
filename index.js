@@ -26,5 +26,5 @@ function prependKitten(array,element) {
 }
 
 function removeLastKitten(array) {
-  
+  return array.slice(0,array.length-1)
 }
